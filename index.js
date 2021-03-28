@@ -15,8 +15,8 @@ const menu = require("./lib/menu.js")
 
 const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const BotName = 'PEMBANTUNYA MUSHCHAF'; 
+const instagram = 'No- kaelMk_'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
@@ -452,7 +452,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 })
 }
 
-  //Jadwan sholat daerah
+  //Jadwal sholat daerah
 if (text.includes('.Sholat')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -846,7 +846,7 @@ if (text.includes(".quotes"))
     });
     }
 
-  //Pencarian image
+  //Pencarian Gambar
 if (text.includes('.Img')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -877,7 +877,7 @@ if (text.includes(".img"))
             });
     }
 
-  //Stalker instagram
+  //Stalker ig
 if (text.includes('.Stalk')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
